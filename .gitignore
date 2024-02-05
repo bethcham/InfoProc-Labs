@@ -1,2 +1,17 @@
 *.Identifier
 workdir/
+*.cdf
+/db/*
+/incremental_db/*
+/output_files/*
+*.bak
+*.qws
+/nios_setup_v2/*
+
+/software/*
+!software/hello_world_sw
+software/hello_world_sw/*
+!software/hello_world_sw/*.elf
+!software/hello_world_sw/*.c
+
+lab4/*
